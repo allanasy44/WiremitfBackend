@@ -106,4 +106,4 @@ Basic GitHub Actions workflow included at `.github/workflows/ci.yml` to lint and
 - **Data Flow**: Celery fetches external rates → aggregates & stores → API reads latest/historical.
 - **Scale**: Add more currencies by listing them in aggregator; add more worker replicas; shard reads via read replicas; cache latest rates in Redis if needed.
 
-_Updated: 2025-08-16T11:42:52.134876Z_
+
